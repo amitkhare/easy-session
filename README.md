@@ -32,13 +32,13 @@ $session = new AmitKhare\EasySession($sessionStoreName);
 $key = 1;
 $value = ['var1'=>123,'var2'=>'amit'];
 
-// set session
+// store item in $sessionStoreName
 $session->set($key,$value);
 
-// get session by key
+// get item from $sessionStoreName by $key
 $session->get($key);
 
-// check if exists
+// check if item exists in $sessionStoreName
 $session->exists($key);
 
 // all $sessionStoreName items
