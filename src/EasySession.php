@@ -4,7 +4,7 @@ namespace AmitKhare;
 
 use Countable;
 
-class SessionStorage Countable
+class EasySession Countable
 {
     protected $bucket;
 
