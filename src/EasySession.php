@@ -4,7 +4,7 @@ namespace AmitKhare;
 
 use Countable;
 
-class EasySession Countable
+class EasySession implements Countable
 {
     protected $bucket;
 
